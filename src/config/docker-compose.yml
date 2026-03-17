@@ -1,0 +1,1 @@
+version: '3'services:  angular:    build: .    environment:      - NODE_ENV=production    ports:      - '80:80'    depends_on:      - node  node:    image: node:18    working_dir: /app    volumes:      - ./:/app    command: npm run build && npm run start
