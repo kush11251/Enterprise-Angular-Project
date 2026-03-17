@@ -1,0 +1,1 @@
+export const environment = {  production: False,  apiUrl: 'https://jsonplaceholder.typicode.com'};
